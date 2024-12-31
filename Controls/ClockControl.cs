@@ -32,12 +32,11 @@ namespace MaxPos.Controls
             {
                 HorizontalAlignment = HorizontalAlignment.Center,
                 VerticalAlignment = VerticalAlignment.Center,
-                Spacing = 5
             };
 
             _timeBlock = new TextBlock
             {
-                FontSize = 24,
+                FontSize = 20,
                 FontWeight = FontWeight.Bold,
                 Foreground = Brushes.Black,
                 HorizontalAlignment = HorizontalAlignment.Center
@@ -45,7 +44,7 @@ namespace MaxPos.Controls
 
             _dateBlock = new TextBlock
             {
-                FontSize = 16,
+                FontSize = 14,
                 Foreground = Brushes.Black,
                 HorizontalAlignment = HorizontalAlignment.Center
             };
